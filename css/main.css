@@ -1,0 +1,128 @@
+
+#body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Righteous', serif;
+    font-size: 20px;
+}
+.abc{
+   
+    font-size: 50px;
+    text-align: center
+}
+#banner{
+    width:1200px;
+    background-color: royalblue;
+    color: white;
+    height: 200px;
+    clear: both;
+    position: fixed;
+}
+#nav,#content,#supporting{
+    margin-top: 200px;
+}
+.container{
+    padding: 10px;
+}
+#wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#nav{
+    width:200px;
+    background-color: rgba(250, 209, 138, 0.515);
+    position: fixed;
+    height: 400px;
+}
+#content{
+    width:800px;
+    background-color:
+    rgba(188, 252, 240, 0.53);
+    height: 1500px;
+    float: left;
+    margin-left: 200px;
+}
+#supporting{
+    width:200px;
+    background-color: rgba(233, 252, 169, 0.539);
+    color: peru;
+    height: 400px;
+    position: fixed;
+    margin-left: 1000px;
+    float: left;
+    
+   
+}
+
+    #footer{
+    width:1200px;
+    background-color:
+     brown;
+     color: honeydew;
+     clear: both;
+}
+#About,#Education,#Experience,#Courses,#Publications{
+    padding-top: 200px;
+    margin-top: -200px;
+}
+
+#nav li {
+    display: block;
+    background-color: burlywood;
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.5) ;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#nav ul{
+    padding-left: 0px;
+}
+
+#nav li a{
+    color: honeydew;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav li a:hover{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+#nav li :hover{
+    background-color: beige;
+}
+
+div.gallery {
+    margin: 5px;
+    /* border: 1px solid #ccc; */
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    /* border: 1px solid #777; */
+  }
+  
+  div.gallery img {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 2px solid rgba(147, 142, 142, 0.66);
+  }
+  
+  div.gallery img:hover {
+
+    border: 2px solid black;
+  }
+  
+
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
